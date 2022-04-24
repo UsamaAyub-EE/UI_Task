@@ -1,34 +1,51 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <title>UI Assignment</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
     <link type="text/css" rel="stylesheet" href="main.css"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
 </head>
 
 <body>
-    <div class="sec1">
-        <img src="logo-white.png" alt="ELEGANT" class="imgSec1">
-        <div class="topnav">
-            <a href="#home" style="color: rgb(25, 0, 255);">Home</a>
-            <a href="#about">About</a>
-            <a href="#services">Services</a>
-            <a href="#own work">Own Work</a>
-            <a href="#contact">Contact</a>
+<!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-md">   <!-- After a width of 768px, navbar will expand -->
+        <div class="container"> <a class="navbar-brand" href="#"> <img src="logo-white.png" alt="logo"> </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="fas fa-bars"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active"> <a class="nav-link" href="">Home</a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="#">About</a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="#">Services</a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="#">Own Work</a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="#">Contact</a> </li>
+                </ul>
+            </div>
         </div>
+    </nav>
+<!-- End Navigation Bar -->
+    <div class="sec1">
         <div class="text-overlay">
             <h1>Best Template For Creative Business</h1>
             <p>Do ex esse proident ea ea ut reprehenderit.Est sit non culpa est laboris deserunt esse eiusmod et commodo.</p>
             <button class="buttonSec1">Get Started</button>
         </div>
     </div>
-    <div class="sec2">
-        <h1 style="text-transform: uppercase; color:brown">we are best at our work</h1>
-        <p>Cupidatat aliqua ad aliqua nostrud amet dolor officia nostrud adipisicing qui.In esse et sunt tempor ad ipsum eu id consectetur deserunt exercitation.</p>
-        <span class="section-title-line"></span>
+    <div class="container d-flex justify-content-center">
+        <div class="sec2">
+            <h1 style="text-transform: uppercase; color:brown">we are best at our work</h1>
+            <p>Cupidatat aliqua ad aliqua nostrud amet dolor officia nostrud adipisicing qui.In esse et sunt tempor ad ipsum eu id consectetur deserunt exercitation.</p>
+            <span class="section-title-line"></span>
+        </div>
     </div>
-    <div class="sec3">
+    <div class="sec3 ">
         <section class="sec3Section">
             <h3>You can conquer the world.</h3>
             <p style="color: orange; margin-top: -2.5%;">If you have the right set of mind and thus you can rule the world. Cheers!</p>
@@ -40,12 +57,14 @@
             <img src="about.jpg" alt="conquer anything" class="imgSec3" style="width: 100%;">
         </div>
     </div>
-    <div class="sec2">
-        <h1 style="text-transform: uppercase; color:brown">we are best at our service</h1>
-        <p>Cupidatat aliqua ad aliqua nostrud amet dolor officia nostrud adipisicing qui.In esse et sunt tempor ad ipsum eu id consectetur deserunt exercitation.</p>
-        <span class="section-title-line"></span>
+    <div class="container d-flex justify-content-center">
+        <div class="sec2">
+            <h1 style="text-transform: uppercase; color:brown">we are best at our service</h1>
+            <p>Cupidatat aliqua ad aliqua nostrud amet dolor officia nostrud adipisicing qui.In esse et sunt tempor ad ipsum eu id consectetur deserunt exercitation.</p>
+            <span class="section-title-line"></span>
+        </div>
     </div>
-    <div class="sec5">
+    <div class="container sec5">
         <div class="box">
             <i class="fas fa-chart-line"></i>
             <h4>Chart Line</h4>
@@ -83,76 +102,207 @@
             <p>Some text inside the box.Some text inside the box.</p>
         </div>
     </div>
-    <div class="sec2">
-        <h1 style="text-transform: uppercase; color:brown">check our recent works</h1>
-        <p>Cupidatat aliqua ad aliqua nostrud amet dolor officia nostrud adipisicing qui.In esse et sunt tempor ad ipsum.</p>
-        <span class="section-title-line"></span>
+    <div class="container d-flex justify-content-center">
+        <div class="sec2">
+            <h1 style="text-transform: uppercase; color:brown">check our recent works</h1>
+            <p>Cupidatat aliqua ad aliqua nostrud amet dolor officia nostrud adipisicing qui.In esse et sunt tempor ad ipsum.</p>
+            <span class="section-title-line"></span>
+        </div>
     </div>
-    <div class="sec7">
-        <button type="button" class="active">All</button>
-        <button type="button">Summer</button>
-        <button type="button">Winter</button>
-        <button type="button">Rainy</button>
-        <button type="button">Spring</button>
+<!-- Image Gallery -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12">
+                <ul class="filters text-center">
+                    <li class="active" data-filter="*"><a href="#!">All</a></li>
+                    <li data-filter=".summer"><a href="#!">Summer</a></li>
+                    <li data-filter=".rainy"><a href="#!">Rainy</a></li>
+                    <li data-filter=".spring"><a href="#!">Spring</a></li>
+                    <li data-filter=".winter"><a href="#!">Winter</a></li>
+                </ul>
+                <div class="projects">
+                    <div class="row no-gutters">
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 item summer p-0">
+                            <div class="card">
+                                <div class="card-head">
+                                    <img src="gall4.jpg" alt="Summer" class="img-fluid card-img">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 item summer p-0">
+                            <div class="card">
+                                <div class="card-head">
+                                    <img src="gall7.jpg" alt="Summer" class="img-fluid card-img">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 item spring p-0">
+                            <div class="card">
+                                <div class="card-head">
+                                    <img src="gall1.jpg" alt="Spring" class="img-fluid card-img">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 item spring p-0">
+                            <div class="card">
+                                <div class="card-head">
+                                    <img src="gall2.jpg" alt="Spring" class="img-fluid card-img">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 item spring p-0">
+                            <div class="card">
+                                <div class="card-head">
+                                    <img src="gall3.jpg" alt="Spring" class="img-fluid card-img">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 item winter p-0">
+                            <div class="card">
+                                <div class="card-head">
+                                    <img src="gall5.jpg" alt="Winter" class="img-fluid card-img">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 item winter p-0">
+                            <div class="card">
+                                <div class="card-head">
+                                    <img src="gall9.jpg" alt="Winter" class="img-fluid card-img">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 item rainy p-0">
+                            <div class="card">
+                                <div class="card-head">
+                                    <img src="gall6.jpg" alt="Rainy" class="img-fluid card-img">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 item rainy p-0">
+                            <div class="card">
+                                <div class="card-head">
+                                    <img src="gall8.jpg" alt="Rainy" class="img-fluid card-img">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="sec8">
-        <img src="gall1.jpg" alt="Summer">
-        <img src="gall2.jpg" alt="Spring">
-        <img src="gall3.jpg" alt="Spring">
-        <img src="gall4.jpg" alt="Summer">
-        <img src="gall5.jpg" alt="Winter">
-        <img src="gall6.jpg" alt="Rainy">
-        <img src="gall7.jpg" alt="Summer">
-        <img src="gall8.jpg" alt="Rainy">
-        <img src="gall9.jpg" alt="Winter">
-    </div>
+    <!-- End Image Gallery -->
+    <!-- carousel  -->
     <div class="sec9">
-        <div class="text-overlay">
-            <i class="fas fa-comments"></i>
-            <p style="color: white;">Commodo consequat exercitation nisi deserunt est velit sint est est officia. Nisi et aute adipisicing enim laborum labore consequat in pariatur duis sint velit.</p>
-            <p style="color: orange;">Rup Jakhar <br> <span style="color: white;">Web Desinger</span></p>
+        <div id="slides" class="carousel slide" data-ride="carousel">
+            <ul class="carousel-indicators">
+                <li data-target="#slides" data-slide-to="0" class="active"></li>
+                <li data-target="#slides" data-slide-to="1"></li>
+                <li data-target="#slides" data-slide-to="2"></li>
+            </ul>
+            <div class="carousel-inner text-center">
+                <div class="carousel-item active carousel-item-styling">
+                    <div>
+                        <i class="fas fa-comments"></i>
+                        <p style="color: white;">Commodo consequat exercitation nisi deserunt est velit sint est est officia. Nisi et aute adipisicing enim laborum labore consequat in pariatur duis sint velit.</p>
+                        <p style="color: orange;">Rup Jakhar <br> <span style="color: white;">Web Desinger</span></p>
+                        <br>
+                    </div>
+                </div>
+                <div class="carousel-item carousel-item-styling">
+                    <div>
+                        <i class="fas fa-comments"></i>
+                        <p style="color: white;">Commodo consequat exercitation nisi deserunt est velit sint est est officia. Nisi et aute adipisicing enim laborum labore consequat in pariatur duis sint velit.</p>
+                        <p style="color: orange;">Ali Raza <br> <span style="color: white;">Web Desinger</span></p>
+                        <br>
+                    </div>
+                </div>
+                <div class="carousel-item carousel-item-styling">
+                    <div>
+                        <i class="fas fa-comments"></i>
+                        <p style="color: white;">Commodo consequat exercitation nisi deserunt est velit sint est est officia. Nisi et aute adipisicing enim laborum labore consequat in pariatur duis sint velit.</p>
+                        <p style="color: orange;">Atif Ijaz <br> <span style="color: white;">Web Desinger</span></p>
+                        <br>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-    <div class="sec2">
-        <h1 style="text-transform: uppercase; color:brown">contact us for more</h1>
-        <p>Cupidatat aliqua ad aliqua nostrud amet dolor officia nostrud adipisicing qui.In esse et sunt tempor ad ipsum.</p>
-        <span class="section-title-line"></span>
+    <!-- End carousel -->
+    <div class="container d-flex justify-content-center">
+        <div class="sec2">
+            <h1 style="text-transform: uppercase; color:brown">contact us for more</h1>
+            <p>Cupidatat aliqua ad aliqua nostrud amet dolor officia nostrud adipisicing qui.In esse et sunt tempor ad ipsum.</p>
+            <span class="section-title-line"></span>
+        </div>
     </div>
+    <!-- Conatct section -->
     <div class="contact">
-        <div>
-            <div class="contact">
-                <div> <i class="fas fa-phone"></i> </div>
-                <div>
-                  <h4>Phone :</h4>
-                  <p>0123456789</p>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-md-4">
+                    <div>
+                        <div class="info-box">
+                            <div class="icon"> <i class="fas fa-phone"></i> </div>
+                            <div class="content">
+                                <h4>Phone :</h4>
+                                <p>03359521344</p>
+                            </div>
+                        </div>
+                        <div class="info-box">
+                            <div class="icon"> <i class="fas fa-map-marker-alt"></i> </div>
+                            <div class="content">
+                                <h4>Address :</h4>
+                                <p>Lahore, Pakistan</p>
+                            </div>
+                        </div>
+                        <div class="info-box">
+                            <div class="icon"> <i class="fas fa-envelope"></i> </div>
+                            <div class="content">
+                                <h4>Mail :</h4>
+                                <p><a href="#">info@123.com</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7 col-md-8">
+                    <div class="contact-form">
+                        <form class='form' id='contact-form'>
+                            <input type='hidden' name='form-name' value='contact-form' />
+                            <div>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <input id="form_name" type="text" name="name" placeholder="Name *" required data-error="name is required.">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <input id="form_email" type="email" name="email" placeholder="Email *" required data-error="Valid email is required.">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <div class="form-group">
+                                            <input id="form_subject" type="text" name="subject" placeholder="Subject">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 form-group">
+                                        <textarea id="form_message" name="message" class="form-control" placeholder=" Type Your Message " rows="4" required data-error="Please,leave us a message."></textarea>
+                                    </div>
+                                    <div class="col-lg-12 text-center">
+                                        <button class="buttonSec1">Send Message</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
-            <div class="contact">
-                <div> <i class="fas fa-map-marker-alt"></i> </div>
-                <div>
-                  <h4>Address :</h4>
-                  <p>New Delhi, India</p>
-                </div>
-            </div>
-            <div class="info-box">
-                <div> <i class="fas fa-envelope"></i> </div>
-                <div>
-                  <h4>Mail :</h4>
-                  <p><a href="#">info@123.com</a></p>
-                </div>
-            </div>
-        </div>
-        <div>
-                  <input id="form_name" type="text" name="name" placeholder="Name *" required data-error="name is required.">
-
-                  <input id="form_email" type="email" name="email" placeholder="Email *" required data-error="Valid email is required.">
-                  <br>
-                  <input id="form_subject" type="text" name="subject" placeholder="Subject">
-                    <br>
-                <textarea id="form_message" name="message" placeholder=" Type Your Message " rows="4" required data-error="Please,leave us a message."></textarea>
-
-
         </div>
     </div>
+<!-- End contact section -->
+    <script src="https://code.jquery.com/jAll
+    Suquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="isotope.min.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
