@@ -3,22 +3,18 @@
 /* navbar styling */
 .navbar {
 	position: fixed;
-	right: 0;
-	left: 0;
+    background: transparent;
+	z-index: 2;
 	width: 100%;
-	padding-left: 0;
-	padding-right: 0;
 	min-height: 50px;
 	line-height: 50px;
-	background: transparent;
-	z-index: 2;
 }
 .navbar .nav-item {
 	margin: 0 5px;
 	padding: 0;
 }
 .navbar .nav-item a {
-	color: #ffffff;
+	color: white;
 	font-weight: 300;
 }
 .navbar .nav-link {
@@ -29,30 +25,20 @@
 	cursor: pointer;
 }
 .navbar .navbar-toggler span {
-	color: #fff;
+	color: white;
 }
-.navbar-style2 .active:after, .navbar-style2 .nav-link:after {
-	display: none;
-}
+
 .nav-scroll {
-	background: #fff;
-	-webkit-box-shadow: 0 1px 8px 3px rgba(0, 0, 0, 0.0509803922);
-	box-shadow: 0 1px 8px 3px rgba(0, 0, 0, 0.0509803922);
-	-webkit-transition: all .4s ease;
-	transition: all .4s ease;
+	background: white;
 }
 .nav-scroll .navbar-nav > li > a {
-	color: #333;
-}
-.nav-scroll .navbar-brand img {
-	-webkit-transform: scale(1.03) !important;
-	transform: scale(1.03) !important;
+	color: black;
 }
 .nav-scroll .navbar-toggler {
 	cursor: pointer;
 }
 .nav-scroll .navbar-toggler span {
-	color: #333;
+	color: black;
 }
 .nav-scroll .active {
 	position: relative;
@@ -156,47 +142,7 @@
 .box hr{
     width: 40px;
 }
-.sec7{
-    font-family: "Poppins", sans-serif;
-    border-radius: 28px;
-    width: 28%;
-	margin: 0 auto;
-	border: 1px dotted #e1e1e1;
-}
-.sec7 button{
-    position: relative;
-	top: -1px;
-	font-size: 14px;
-	padding: 10px 30px;
-	color: #777;
-	cursor: pointer;
-	-webkit-transition: all 0.3s ease-in-out;
-	transition: all 0.3s ease-in-out;
-	background: none;
-	border: 0;
-}
 
-.sec7 .active{
-    background-color: #ab2f52;
-	color: #fff;
-	border-radius: 28px;
-	-webkit-box-shadow: 0px 10px 30px -4px rgba(0, 0, 0, 0.2);
-	box-shadow: 0px 10px 30px -4px rgba(0, 0, 0, 0.2);
-}
-
-.sec8{
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-}
-.column {
-    flex: 33.3%;
-    max-width: 33.3%;
-}
-
-.sec8 .column img{
-    width: 100%;
-}
 
 @media (max-width: 800px){
     .column{
