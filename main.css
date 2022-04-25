@@ -15,7 +15,10 @@
 }
 .navbar .nav-item a {
 	color: white;
-	font-weight: 300;
+}
+.navbar .nav-item a:hover {
+	color: red;
+	background-color: wheat;
 }
 .navbar .nav-link {
 	position: relative;
@@ -73,10 +76,16 @@
 .buttonSec1 {
     padding: 10px 20px;
     background: red;
+    color: white;
     border: none;
     border-radius: 100px 100px 100px 100px;
+    cursor: pointer;
 }
 
+.buttonSec1:hover{
+    color: black;
+    background-color: white;
+}
 
 .sec2{
     width: 60%;
@@ -256,7 +265,7 @@
 }
 .contact-form input, .contact-form textarea {
 	border: none;
-	border-bottom: 1px solid #1c1c1c;
+	border-bottom: 1px solid black;
 	border-radius: 0;
 	padding: 10px 10px 10px 0;
 	margin-bottom: 20px;
